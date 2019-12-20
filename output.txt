@@ -1,0 +1,247 @@
+iOS 12.4.4  ->  https://support.apple.com/kb/HT210787
+iOS 12.4.2  ->  https://support.apple.com/kb/HT210590
+iOS 12.4.1  ->  https://support.apple.com/kb/HT210549
+iOS 12.4  ->  https://support.apple.com/kb/HT210346
+iOS 12.3  ->  https://support.apple.com/kb/HT210118
+iOS 12.2  ->  https://support.apple.com/kb/HT209599
+iOS 12.1.4  ->  https://support.apple.com/kb/HT209520
+iOS 12.1.3  ->  https://support.apple.com/kb/HT209443
+iOS 12.1.1  ->  https://support.apple.com/kb/HT209340
+iOS 12.1  ->  https://support.apple.com/kb/HT209192
+iOS 12.0.1  ->  https://support.apple.com/kb/HT209162
+iOS 12  ->  https://support.apple.com/kb/HT209106
+Parsing: iOS 12.4.4
+Parsing: iOS 12.4.2
+Parsing: iOS 12.4.1
+Parsing: iOS 12.4
+Parsing: iOS 12.3
+Parsing: iOS 12.2
+Parsing: iOS 12.1.4
+Parsing: iOS 12.1.3
+Parsing: iOS 12.1.1
+Parsing: iOS 12.1
+Parsing: iOS 12.0.1
+Parsing: iOS 12
+kernel: 43
+Non kernel: 177
+Total: 220
+Kernel -> Impact: A malicious application may be able to execute arbitrary code with system privileges
+Bluetooth -> Impact: An attacker in a privileged network position may be able to intercept Bluetooth traffic (Key Negotiation of Bluetooth - KNOB)
+Core Data -> Impact: A remote attacker may be able to leak memory
+Core Data -> Impact: A remote attacker may be able to cause arbitrary code execution
+Core Data -> Impact: A remote attacker may be able to cause unexpected application termination or arbitrary code execution
+FaceTime -> Impact: A remote attacker may be able to cause arbitrary code execution
+Found in Apps -> Impact: A remote attacker may be able to leak memory
+Heimdal -> Impact: An issue existed in Samba that may allow attackers to perform unauthorized actions by intercepting communications between services
+Image Processing -> Impact: Processing a maliciously crafted image may lead to a denial of service
+libxslt -> Impact: A remote attacker may be able to view sensitive information
+Messages -> Impact: A remote attacker may cause an unexpected application termination
+Profiles -> Impact: A malicious application may be able to restrict access to websites
+Quick Look -> Impact: An attacker may be able to trigger a use-after-free in an application deserializing an untrusted NSDictionary
+Siri -> Impact: A remote attacker may be able to leak memory
+Telephony -> Impact: The initiator of a phone call may be able to cause the recipient to answer a simultaneous Walkie-Talkie connection
+UIFoundation -> Impact: Parsing a maliciously crafted office document may lead to an unexpected application termination or arbitrary code execution
+Wallet -> Impact: A user may inadvertently complete an in-app purchase while on the lock screen
+WebKit -> Impact: Processing maliciously crafted web content may lead to universal cross site scripting
+WebKit -> Impact: Processing maliciously crafted web content may lead to universal cross site scripting
+WebKit -> Impact: Processing maliciously crafted web content may lead to universal cross site scripting
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+AppleFileConduit -> Impact: An application may be able to execute arbitrary code with system privileges
+Bluetooth -> Impact: Due to a misconfiguration in the Bluetooth pairing protocols of a Bluetooth Low Energy (BLE) version of FIDO Security Keys it may be possible for an attacker with physical proximity to be able to intercept Bluetooth traffic during pairing
+Contacts -> Impact: A malicious application may be able to read restricted memory
+CoreAudio -> Impact: Processing a maliciously crafted movie file may lead to arbitrary code execution
+CoreAudio -> Impact: Processing a maliciously crafted audio file may lead to arbitrary code execution
+CoreText -> Impact: Processing a maliciously crafted font may result in the disclosure of process memory
+Disk Images -> Impact: An application may be able to read restricted memory
+Kernel -> Impact: An application may be able to read restricted memory
+Kernel -> Impact: A local user may be able to cause unexpected system termination or read kernel memory
+Kernel -> Impact: An application may be able to cause unexpected system termination or write kernel memory
+Lock Screen -> Impact: A person with physical access to an iOS device may be able to see the email address used for iTunes
+Mail -> Impact: Processing a maliciously crafted message may lead to a denial of service
+Mail Message Framework -> Impact: A remote attacker may be able to cause arbitrary code execution
+Messages -> Impact: A remote attacker may be able to cause a system denial of service
+Messages -> Impact: Processing a maliciously crafted message may lead to a denial of service
+Messages -> Impact: Users removed from an iMessage conversation may still be able to alter state
+MobileInstallation -> Impact: A local user may be able to modify protected parts of the file system
+MobileLockdown -> Impact: A malicious application may be able to gain root privileges
+Photos Storage -> Impact: A sandboxed process may be able to circumvent sandbox restrictions
+SQLite -> Impact: An application may be able to gain elevated privileges
+SQLite -> Impact: A maliciously crafted SQL query may lead to arbitrary code execution
+SQLite -> Impact: A malicious application may be able to read restricted memory
+SQLite -> Impact: A malicious application may be able to elevate privileges
+Status Bar -> Impact: The lock screen may show a locked icon after unlocking
+StreamingZip -> Impact: A local user may be able to modify protected parts of the file system
+sysdiagnose -> Impact: An application may be able to execute arbitrary code with system privileges
+WebKit -> Impact: Processing maliciously crafted web content may result in the disclosure of process memory
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+Wi-Fi -> Impact: An attacker in a privileged network position can modify driver state
+Wi-Fi -> Impact: A device may be passively tracked by its WiFi MAC address
+802.1X -> Impact: An attacker in a privileged network position may be able to intercept network traffic
+Accounts -> Impact: Processing a maliciously crafted vcf file may lead to a denial of service
+CFString -> Impact: Processing a maliciously crafted string may lead to a denial of service
+configd -> Impact: A malicious application may be able to elevate privileges
+Contacts -> Impact: A malicious application may be able to elevate privileges
+CoreCrypto -> Impact: A malicious application may be able to elevate privileges
+Exchange ActiveSync -> Impact: A user may authorize an enterprise administrator to remotely wipe their device without appropriate disclosure
+FaceTime -> Impact: A user’s video may not be paused in a FaceTime call if they exit the FaceTime app while the call is ringing
+Feedback Assistant -> Impact: A malicious application may be able to gain root privileges
+Feedback Assistant -> Impact: A malicious application may be able to overwrite arbitrary files
+file -> Impact: Processing a maliciously crafted file might disclose user information
+GeoServices -> Impact: Clicking a malicious SMS link may lead to arbitrary code execution
+iAP -> Impact: A malicious application may be able to elevate privileges
+IOHIDFamily -> Impact: A local user may be able to cause unexpected system termination or read kernel memory
+IOKit -> Impact: A local user may be able to read kernel memory
+IOKit SCSI -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: A remote attacker may be able to alter network traffic data
+Kernel -> Impact: A remote attacker may be able to leak memory
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: A remote attacker may be able to cause unexpected system termination or corrupt kernel memory
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: An application may be able to gain elevated privileges
+Kernel -> Impact: A malicious application may be able to determine kernel memory layout
+Kernel -> Impact: A local user may be able to read kernel memory
+Kernel -> Impact: A malicious application may be able to determine kernel memory layout
+Mail -> Impact: Processing a maliciously crafted mail message may lead to S/MIME signature spoofing
+MediaLibrary -> Impact: A malicious application may be able to access restricted files
+Messages -> Impact: A local user may be able to view sensitive user information
+Power Management -> Impact: A malicious application may be able to execute arbitrary code with system privileges
+Privacy -> Impact: A malicious app may be able to track users between installs
+ReplayKit -> Impact: A malicious application may be able to access the microphone without indication to the user
+Safari -> Impact: A website may be able to access sensor information without user consent
+Safari Reader -> Impact: Enabling the Safari Reader feature on a maliciously crafted webpage may lead to universal cross site scripting
+Sandbox -> Impact: A sandboxed process may be able to circumvent sandbox restrictions
+Security -> Impact: An untrusted radius server certificate may be trusted
+Siri -> Impact: A malicious application may be able to initiate a Dictation request without user authorization
+TrueTypeScaler -> Impact: Processing a maliciously crafted font may result in the disclosure of process memory
+WebKit -> Impact: Processing maliciously crafted web content may lead to universal cross site scripting
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: A sandboxed process may be able to circumvent sandbox restrictions
+WebKit -> Impact: A website may be able to access the microphone without the microphone use indicator being shown
+WebKit -> Impact: Processing maliciously crafted web content may disclose sensitive user information
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: A malicious website may be able to execute scripts in the context of another website
+WebKit -> Impact: Processing maliciously crafted web content may result in the disclosure of process memory
+Wi-Fi -> Impact: A device may be passively tracked by its WiFi MAC address
+XPC -> Impact: A malicious application may be able to overwrite arbitrary files
+FaceTime -> Impact: The initiator of a Group FaceTime call may be able to cause the recipient to answer
+Foundation -> Impact: An application may be able to gain elevated privileges
+IOKit -> Impact: An application may be able to execute arbitrary code with kernel privileges
+AppleKeyStore -> Impact: A sandboxed process may be able to circumvent sandbox restrictions
+Bluetooth -> Impact: An attacker in a privileged network position may be able to execute arbitrary code
+Core Media -> Impact: A malicious application may be able to elevate privileges
+CoreAnimation -> Impact: A malicious application may be able to read restricted memory
+CoreAnimation -> Impact: A malicious application may be able to break out of its sandbox
+FaceTime -> Impact: A remote attacker may be able to initiate a FaceTime call causing arbitrary code execution
+IOKit -> Impact: A malicious application may be able to break out of its sandbox
+Kernel -> Impact: A malicious application may be able to elevate privileges
+Kernel -> Impact: A malicious application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: A malicious application may cause unexpected changes in memory shared between processes
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: A malicious application may be able to determine kernel memory layout
+Kernel -> Impact: A malicious application may cause unexpected changes in memory shared between processes
+Keyboard -> Impact: Password autofill may fill in passwords after they were manually cleared
+libxpc -> Impact: A malicious application may be able to execute arbitrary code with kernel privileges
+Natural Language Processing -> Impact: Processing a maliciously crafted message may lead to a denial of service
+Safari Reader -> Impact: Processing maliciously crafted web content may lead to a cross site scripting attack
+SQLite -> Impact: A maliciously crafted SQL query may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to universal cross site scripting
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may disclose sensitive user information
+WebRTC -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+Airport -> Impact: A malicious application may be able to elevate privileges
+Disk Images -> Impact: An application may be able to execute arbitrary code with kernel privileges
+FaceTime -> Impact: A local attacker may be able to view contacts from the lock screen
+File Provider -> Impact: A malicious application may be able to learn information about the presence of other applications on the device
+Kernel -> Impact: A local user may be able to read kernel memory
+Kernel -> Impact: An attacker in a privileged position may be able to perform a denial of service attack
+Kernel -> Impact: A local user may be able to read kernel memory
+Kernel -> Impact: A malicious application may be able to elevate privileges
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+LinkPresentation -> Impact: Processing a maliciously crafted email may lead to user interface spoofing
+Profiles -> Impact: An untrusted configuration profile may be incorrectly displayed as verified
+Safari -> Impact: Visiting a malicious website may lead to user interface spoofing
+Safari -> Impact: Visiting a malicious website may lead to address bar spoofing
+Safari -> Impact: A user may be unable to fully delete browsing history
+VoiceOver -> Impact: A local attacker may be able to share items from the lock screen
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Processing maliciously crafted web content may disclose sensitive user information
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+AppleAVD -> Impact: Processing malicious video via FaceTime may lead to arbitrary code execution
+Bluetooth -> Impact: A local user may be able to read a persistent device identifier
+Contacts -> Impact: Processing a maliciously crafted vcf file may lead to a denial of service
+CoreCrypto -> Impact: An attacker may be able to exploit a weakness in the Miller-Rabin primality test to incorrectly identify prime numbers
+FaceTime -> Impact: A remote attacker may be able to leak memory
+FaceTime -> Impact: A remote attacker may be able to initiate a FaceTime call causing arbitrary code execution
+Graphics Driver -> Impact: Processing malicious video via FaceTime may lead to arbitrary code execution
+ICU -> Impact: Processing a maliciously crafted string may lead to heap corruption
+IOHIDFamily -> Impact: An application may be able to execute arbitrary code with kernel privileges
+IPSec -> Impact: An application may be able to gain elevated privileges
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: An application may be able to read restricted memory
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Mail -> Impact: Processing a maliciously crafted message may lead to a denial of service
+Messages -> Impact: Processing a maliciously crafted text message may lead to UI spoofing
+NetworkExtension -> Impact: Connecting to a VPN server may leak DNS queries to a DNS proxy
+Notes -> Impact: A local attacker may be able to share items from the lock screen
+Safari Reader -> Impact: Enabling the Safari Reader feature on a maliciously crafted webpage may lead to universal cross site scripting
+Safari Reader -> Impact: Enabling the Safari Reader feature on a maliciously crafted webpage may lead to universal cross site scripting
+Security -> Impact: Processing a maliciously crafted S/MIME signed message may lead to a denial of service
+VoiceOver -> Impact: A local attacker may be able to view photos from the lock screen
+WebKit -> Impact: Visiting a malicious website may lead to address bar spoofing
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: A malicious website may be able to cause a denial of service
+WebKit -> Impact: Processing maliciously crafted web content may lead to code execution
+WiFi -> Impact: An attacker in a privileged position may be able to perform a denial of service attack
+VoiceOver -> Impact: A local attacker may be able to view photos and contacts from the lock screen
+Accounts -> Impact: A local app may be able to read a persistent account identifier
+Auto Unlock -> Impact: A malicious application may be able to access local users AppleIDs
+Bluetooth -> Impact: An attacker in a privileged network position may be able to intercept Bluetooth traffic
+CFNetwork -> Impact: An application may be able to execute arbitrary code with system privileges
+CoreFoundation -> Impact: A malicious application may be able to elevate privileges
+CoreFoundation -> Impact: An application may be able to gain elevated privileges
+CoreMedia -> Impact: An app may be able to learn information about the current camera view before being granted camera access
+CoreText -> Impact: Processing a maliciously crafted text file may lead to arbitrary code execution
+Crash Reporter -> Impact: An application may be able to read restricted memory
+dyld -> Impact: A malicious application may be able to modify protected parts of the file system
+Grand Central Dispatch -> Impact: An application may be able to execute arbitrary code with system privileges
+Heimdal -> Impact: An application may be able to execute arbitrary code with system privileges
+iBooks -> Impact: Parsing a maliciously crafted iBooks file may lead to disclosure of user information
+IOHIDFamily -> Impact: A malicious application may be able to execute arbitrary code with kernel privileges
+IOKit -> Impact: A malicious application may be able to break out of its sandbox
+IOKit -> Impact: An application may be able to execute arbitrary code with kernel privileges
+IOMobileFrameBuffer -> Impact: An application may be able to read restricted memory
+IOUserEthernet -> Impact: An application may be able to execute arbitrary code with kernel privileges
+iTunes Store -> Impact: An attacker in a privileged network position may be able to spoof password prompts in the iTunes Store
+Kernel -> Impact: An application may be able to read restricted memory
+Kernel -> Impact: An application may be able to execute arbitrary code with kernel privileges
+Kernel -> Impact: A malicious application may be able to leak sensitive user information
+Kernel -> Impact: An attacker in a privileged network position may be able to execute arbitrary code
+mDNSOffloadUserClient -> Impact: An application may be able to execute arbitrary code with kernel privileges
+MediaRemote -> Impact: A sandboxed process may be able to circumvent sandbox restrictions
+Messages -> Impact: A local user may be able to discover a user’s deleted messages
+Notes -> Impact: A local user may be able to discover a user’s deleted notes
+Safari -> Impact: A local user may be able to discover websites a user has visited
+Safari -> Impact: A user may be unable to delete browsing history items
+Safari -> Impact: A malicious website may be able to exfiltrate autofilled data in Safari
+SafariViewController -> Impact: Visiting a malicious website may lead to address bar spoofing
+Security -> Impact: A local user may be able to cause a denial of service
+Security -> Impact: An attacker may be able to exploit weaknesses in the RC4 cryptographic algorithm
+Status Bar -> Impact: A person with physical access to an iOS device may be able to determine the last used app from the lock screen
+Symptom Framework -> Impact: An application may be able to read restricted memory
+Text -> Impact: Processing a maliciously crafted text file may lead to a denial of service
+WebKit -> Impact: A malicious website may be able to execute scripts in the context of another website
+WebKit -> Impact: Unexpected interaction causes an ASSERT failure
+WebKit -> Impact: Cross-origin SecurityErrors includes the accessed frame’s origin
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: A malicious website may cause unexepected cross-origin behavior
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
+WebKit -> Impact: Unexpected interaction causes an ASSERT failure
+WebKit -> Impact: A malicious website may exfiltrate image data cross-origin
+WebKit -> Impact: Processing maliciously crafted web content may lead to arbitrary code execution
